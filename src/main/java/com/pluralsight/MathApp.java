@@ -8,7 +8,6 @@ public class MathApp {
         // then code solution
         // then use System.out.println() to display results
         // ex: System.out.println("The answer is " + answer);
-
         // REPEAT FOR NEXT EXERCISE
 
         // Question 1: Highest Salary
@@ -23,12 +22,13 @@ public class MathApp {
         System.out.println("Question 1: Highest Salary");
         System.out.println("The higher salary is: $" + highestSalary);
 
+
         // Print empty line for output readability
         System.out.println();
 
+
         // Question 2: Smallest Price
         // find and display the smallest of two variables
-
         // Declare and initialize carPrice and truckPrice
         int carPrice = 25000;
         int truckPrice = 65000;
@@ -40,14 +40,13 @@ public class MathApp {
         System.out.println("Question 2: Lowest Price");
         System.out.println("The lowest price is: $" + lowestPrice);
 
+
         // Print empty line for output readability
         System.out.println();
 
 
         // Question 3: Find Area of a Circle
         // find and display the area of a circle with a radius of 7.25
-
-
         // Declare and initialize radius and radius squared variables
         double radiusOfCircle = 7.25;
 
@@ -59,6 +58,7 @@ public class MathApp {
         System.out.println("Question 3: Find Area of a Circle");
         System.out.println("The area of a circle with a radius of 7.25 is " + areaOfCircle);
         System.out.println("Rounded to the nearest whole number place: " + Math.round(areaOfCircle));
+
 
         // Blank line for output readability
         System.out.println();
