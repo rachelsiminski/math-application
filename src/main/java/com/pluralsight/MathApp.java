@@ -72,5 +72,9 @@ public class MathApp {
         // Declare and initialize square root variable
         double squareRoot = Math.sqrt(needSquareRoot);
 
+        // Display results
+        System.out.println("Question 4: Find the Square Root");
+        System.out.println("The square root of " + needSquareRoot + " is " + squareRoot);
+        System.out.println("Rounded to the nearest whole number: " + Math.round(squareRoot));
     }
 }
