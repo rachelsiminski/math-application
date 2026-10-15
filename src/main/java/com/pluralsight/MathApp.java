@@ -116,6 +116,21 @@ public class MathApp {
         System.out.println("The absolute value of " + needAbsoluteValue + " is " + absoluteValue);
 
 
+        // Blank line for output readability
+        System.out.println();
+
+
+        // Question 7: Find a Random Number Between 0 and 1
+        // find and display a random number between 0 and 1
+        // Display Results
+        System.out.println("Question 7: Display a Random Number Between 0 and 1");
+        System.out.println("The number is: " + Math.random());
+
+
+        // Blank line for output readability
+        System.out.println();
+
+
 
 
     }
