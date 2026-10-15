@@ -12,6 +12,16 @@ public class MathApp {
 
         // REPEAT FOR NEXT EXERCISE
 
+        // Declare and initialize variables for salaries
+        int bobSalary = 72000;
+        int garySalary = 90000;
+
+        // Declare and initialize highest salary variable
+        int highestSalary = Math.max(bobSalary, garySalary);
+
+        // Print the result
+        System.out.println("The higher salary is: $" + highestSalary);
+
 
     }
 }
