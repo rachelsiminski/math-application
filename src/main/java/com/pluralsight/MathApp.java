@@ -76,5 +76,37 @@ public class MathApp {
         System.out.println("Question 4: Find the Square Root");
         System.out.println("The square root of " + needSquareRoot + " is " + squareRoot);
         System.out.println("Rounded to the nearest whole number: " + Math.round(squareRoot));
+
+
+        // Blank line for output readability
+        System.out.println();
+
+
+        // Question 5: Distance Between Two Points
+        // find and display the distance between the points (5, 10) and (85, 50)
+        // Declare and initialize the component variables
+        byte pointOneX = 5;
+        byte pointOneY = 10;
+        byte pointTwoX = 85;
+        byte pointTwoY = 50;
+
+        // Declare and initialize distance variables
+        int distanceX = pointTwoX - pointOneX;
+        int distanceY = pointTwoY - pointOneY;
+
+        // Display results
+        System.out.println("Question 5: Find Distance Between Two Points");
+        System.out.println("The distance between the two points is (" + distanceX + ", " + distanceY + ")");
+
+
+        // Blank line for output readability
+        System.out.println();
+
+
+
+
+
+
+
     }
 }
