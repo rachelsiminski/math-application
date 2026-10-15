@@ -131,6 +131,27 @@ public class MathApp {
         System.out.println();
 
 
+        // Question 8: Calculate Number of Minutes
+        // calculate how many minutes are in 24 days
+        // bonus: how many milliseconds
+        // Declare and initialize variables
+        int numberOfMilliseconds = 60000;  // Number of milliseconds in a MINUTE, skip calculation for milli to sec to min
+        int numberOfMinutes = 60;  // Number of minutes in an hour
+        int numberOfHours = 24;   // Number of hours in a day
+        int numberOfDays = 24;   // Number of days
+        int totalMinutes = 0;
+        int totalMilliseconds = 0;
+
+        // Calculations
+        totalMinutes = ((numberOfMinutes * numberOfHours) * numberOfDays);
+        totalMilliseconds = (((numberOfMilliseconds * numberOfMinutes) * numberOfHours) * numberOfDays);
+
+        // Display results
+        System.out.println("Question 8: Calculate Minutes and Milliseconds");
+        System.out.println("The number of minutes in " + numberOfDays + " is " + totalMinutes + " minutes.");
+        System.out.println("The number of milliseconds in " + numberOfDays + " is " + totalMilliseconds + " milliseconds.");
+
+
 
 
     }
