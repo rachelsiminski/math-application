@@ -103,7 +103,17 @@ public class MathApp {
         System.out.println();
 
 
+        // Question 6: Find Absolute Value of a Variable
+        // find and display the absolute value of a variable set to -3.8
+        // Declare and initialize value
+        double needAbsoluteValue = -3.8;
 
+        // Declare and initialize absolute value
+        double absoluteValue = Math.abs(needAbsoluteValue);
+
+        // Display results
+        System.out.println("Question 6: Find the Absolute Value");
+        System.out.println("The absolute value of " + needAbsoluteValue + " is " + absoluteValue);
 
 
 
