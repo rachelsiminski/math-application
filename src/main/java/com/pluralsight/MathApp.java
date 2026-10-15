@@ -40,8 +40,37 @@ public class MathApp {
         System.out.println("Question 2: Lowest Price");
         System.out.println("The lowest price is: $" + lowestPrice);
 
+        // Print empty line for output readability
+        System.out.println();
 
 
+        // Question 3: Find Area of a Circle
+        // find and display the area of a circle with a radius of 7.25
+
+
+        // Declare and initialize radius and radius squared variables
+        double radiusOfCircle = 7.25;
+
+        // Declare and initialize area variable
+        // Note: Area of a circle is pi * r ^ 2
+        double areaOfCircle = Math.PI * Math.pow(radiusOfCircle, 2.0);
+
+        // Display results
+        System.out.println("Question 3: Find Area of a Circle");
+        System.out.println("The area of a circle with a radius of 7.25 is " + areaOfCircle);
+        System.out.println("Rounded to the nearest whole number place: " + Math.round(areaOfCircle));
+
+        // Blank line for output readability
+        System.out.println();
+
+
+        // Question 4: Find the Square Root
+        // find and display the square root of a variable set to 5.0
+        // Declare and initialize variable
+        double needSquareRoot = 5.0;
+
+        // Declare and initialize square root variable
+        double squareRoot = Math.sqrt(needSquareRoot);
 
     }
 }
